@@ -1,2 +1,3 @@
 # GAME
 add
+build test
