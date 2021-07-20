@@ -1,16 +1,19 @@
 pipeline{
 agent any
 
-tools{
+tools
+  {
 jdk'java8'
-maven'MAVEN-3.3.9'
-}
+maven'maven-3.3.9'
+  }
 stages
-{
-stage('checkout'){
-steps{
+  {
+stage('checkout')
+    {
+steps
+      {
 git'https://github.com/maheshkodhanda/GAME.git'
-}
-}
-}
+      }
+    }
+  }
 }
