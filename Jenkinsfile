@@ -9,7 +9,7 @@ stages
 {
 stage('checkout'){
 steps{
-https://github.com/maheshkodhanda/GAME.git
+git'https://github.com/maheshkodhanda/GAME.git'
 }
 }
 }
